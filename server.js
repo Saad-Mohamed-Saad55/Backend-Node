@@ -27,7 +27,7 @@ const jwtSecretKey = "13711a765c2335db1eec7192d2c46060e9719304ff5075c194923f8b7c
 app.use(express.json());
 // app.use('/api',route);
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://premiumfrontend-r3ubpcdp.b4a.run/"],
     methods: ["POST", "GET", 'DELETE', 'PUT'],
     credentials: true
 }));
